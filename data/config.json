@@ -1,0 +1,80 @@
+{
+    "title": "Stackbit Fjord Theme",
+    "palette": "green",
+    "header": {
+        "title": "Fjord",
+        "tagline": "Maison et bien-être, local et naturel",
+        "logo_img": "images/logo1.png",
+        "logo_img_alt": "Fjord Logo",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Accueil",
+                "url": "/",
+                "style": "link"
+            },
+            {
+                "label": "La boutique",
+                "url": "#",
+                "style": "link",
+                "icon_class": "dev",
+                "new_window": false,
+                "no_follow": false
+            },
+            {
+                "label": "Prendre soin de moi",
+                "url": "/posts/soin-de-moi",
+                "style": "link"
+            },
+            {
+                "label": "Prendre soin de mon foyer",
+                "url": "/posts/soin-de-mon-foyer",
+                "style": "link",
+                "icon_class": "dev",
+                "new_window": false,
+                "no_follow": false
+            },
+            {
+                "label": "Comprendre pour agir",
+                "url": "/posts/comprendre-agir",
+                "style": "link",
+                "icon_class": "dev",
+                "new_window": false,
+                "no_follow": false
+            },
+            {
+                "label": "Qui sommes-nous ?",
+                "url": "/about",
+                "style": "link"
+            },
+            {
+                "label": "Nous contacter",
+                "url": "/contact",
+                "style": "link"
+            }
+        ],
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Instagram",
+                "url": "https://www.instagram.com/tiny_happy/?hl=fr",
+                "style": "icon",
+                "icon_class": "instagram",
+                "new_window": true
+            },
+            {
+                "label": "Facebook",
+                "url": "#",
+                "style": "icon",
+                "icon_class": "facebook",
+                "new_window": false,
+                "no_follow": false
+            }
+        ],
+        "background_img": "images/image-background-blog-3b65a700.png"
+    },
+    "footer": {
+        "content": "&copy; Tiny Happy - Tous droits réservés"
+    },
+    "domain": "https://knowledgeable-plankton-e22a7.netlify.app"
+}

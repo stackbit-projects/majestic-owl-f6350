@@ -1,0 +1,29 @@
+// Font.
+$font: (
+  primary: ("Raleway", raleway)
+);
+
+// Palette.
+$palette: (
+  primary:       #666666,
+  secondary:     darken(#666666, 27%),
+  meta:          lighten(#666666, 23%),
+  border:        lighten(#666666, 38%),
+  bg:            lighten(#666666, 55%),
+  accent:        #f9b14a,
+  accent-blue:   #a3c1ae,
+  accent-green:  #055e50,
+  accent-red:    #eb703f
+);
+
+@import "imports/functions";
+@import "imports/reset";
+@import "imports/general";
+@import "imports/icons";
+@import "imports/structure";
+@import "imports/header";
+@import "imports/posts-pages";
+@import "imports/footer";
+@import "imports/animations";
+@import "imports/palettes";
+@import "imports/banner";
