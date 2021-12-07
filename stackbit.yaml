@@ -315,7 +315,7 @@ models:
           - stackbit_page_meta
   post:
     type: page
-    urlPath: '/posts/{slug}'
+    urlPath: '/posts/'
     label: Post
     layout: post
     folder: posts
