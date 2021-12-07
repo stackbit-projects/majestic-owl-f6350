@@ -6,7 +6,7 @@
       {{ if $.Site.Data.config.header.has_nav }}
       <ul class="menu">
         {{ range $action := $.Site.Data.config.header.nav_links }}
-          {{ $pageUrl := .Permalink }}
+          {{ $pageUrl := .absURL }}
           {{ $actionUrl := trim $action.url "/" }}
           <h1>{{$pageUrl}}// {{$actionUrl}}</h1>
           <li class="menu-item{{ if eq $pageUrl $actionUrl }} current-menu-item{{ end }}">
