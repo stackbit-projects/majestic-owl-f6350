@@ -1,7 +1,5 @@
 title: Stackbit Fjord Theme
 baseURL: /
-taxonomies:
-  stub: stub
 disableKinds:
   - RSS
   - taxonomy
