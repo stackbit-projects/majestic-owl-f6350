@@ -8,7 +8,7 @@
         {{ range $action := $.Site.Data.config.header.nav_links }}
           {{ $pageUrl := trim $.URL "/" }}
           {{ $actionUrl := trim $action.url "/" }}
-          <h1>{{$pageUrl // $actionUrl</h1>
+          <h1>{{$pageUrl }}// $actionUrl</h1>
           <li class="menu-item{{ if eq $pageUrl $actionUrl }} current-menu-item{{ end }}">
             <a href="{{ $action.url | relURL }}"
               {{ if $action.new_window }} target="_blank"{{ end }}
